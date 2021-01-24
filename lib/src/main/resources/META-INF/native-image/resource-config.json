@@ -1,0 +1,12 @@
+{
+  "resources":[
+  ],
+  "bundles":[
+    {"name":"ch.ehi.basics.view.resources.GenericFileFilter"}, 
+    {"name":"ch.ehi.ili2db.Version"}, 
+    {"name":"ch.interlis.ili2c.Version"}, 
+    {"name":"ch.interlis.ili2c.generator.Interlis1Generator"}, 
+    {"name":"ch.interlis.ili2c.metamodel.ErrorMessages"}, 
+    {"name":"ch/interlis/iox_j/Version"}
+  ]
+}

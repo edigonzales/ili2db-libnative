@@ -1,0 +1,33 @@
+[
+  {
+    "name":"antlr.CommonHiddenStreamToken",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"antlr.CommonToken",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"ch.ehi.ili2db.base.TableBasedIdGen",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"ch.ehi.ili2pg.converter.PostgisColumnConverter",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"ch.ehi.ili2pg.PgCustomStrategy",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },  
+  {
+    "name":"ch.ehi.sqlgen.generator_impl.jdbc.GeneratorPostgresql",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"ch.ehi.ili2pg.PgSequenceBasedIdGen",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },  
+  {
+    "name":"org.postgresql.Driver"
+  }
+  ]
