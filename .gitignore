@@ -1,6 +1,9 @@
+data/*.tif
+.vagrant/
+app/.groovy
 
-# Created by https://www.toptal.com/developers/gitignore/api/maven,gradle,java,groovy,windows,linux,macos,intellij+all,netbeans,eclipse
-# Edit at https://www.toptal.com/developers/gitignore?templates=maven,gradle,java,groovy,windows,linux,macos,intellij+all,netbeans,eclipse
+# Created by https://www.toptal.com/developers/gitignore/api/maven,gradle,eclipse,intellij+all,netbeans,java,groovy,windows,linux,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=maven,gradle,eclipse,intellij+all,netbeans,java,groovy,windows,linux,macos
 
 ### Eclipse ###
 .metadata
@@ -307,4 +310,7 @@ gradle-app.setting
 ### Gradle Patch ###
 **/build/
 
-# End of https://www.toptal.com/developers/gitignore/api/maven,gradle,java,groovy,windows,linux,macos,intellij+all,netbeans,eclipse
+# End of https://www.toptal.com/developers/gitignore/api/maven,gradle,eclipse,intellij+all,netbeans,java,groovy,windows,linux,macos
+
+# Ignore Gradle build output directory
+build
