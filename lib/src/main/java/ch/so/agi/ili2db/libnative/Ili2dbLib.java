@@ -37,7 +37,6 @@ public class Ili2dbLib {
     }
     
     public static Config json2config(String jsonString) throws IOException {
-        
         ObjectMapper mapper = new ObjectMapper();
         Map<String, Object> map = mapper.readValue(jsonString, Map.class);
         
