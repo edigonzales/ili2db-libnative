@@ -12,7 +12,8 @@ int main(int argc, char **argv) {
         return 1;
     }
 
-    char * settings = "{ \"dbhost\" : \"localhost\", \"dbport\" : \"54321\", \"dbdatabase\" : \"edit\", \"dbusr\" : \"admin\", \"dbpwd\" : \"admin\", \"dburl\" : \"jdbc:postgresql://localhost:54321/edit\", \"dbschema\" : \"npl_2551\", \"defaultSrsCode\" : \"2056\", \"strokeArcs\" : \"enable\", \"disableValidation\" : true, \"models\" : \"SO_Nutzungsplanung_20171118\", \"doSchemaImport\" : true, \"function\" : \"import\", \"file\" : \"./lib/src/test/data/2551.xtf\" }";
+    //char * settings = "{ \"dbhost\" : \"localhost\", \"dbport\" : \"54321\", \"dbdatabase\" : \"edit\", \"dbusr\" : \"admin\", \"dbpwd\" : \"admin\", \"dburl\" : \"jdbc:postgresql://localhost:54321/edit\", \"dbschema\" : \"npl_2551\", \"defaultSrsCode\" : \"2056\", \"strokeArcs\" : \"enable\", \"disableValidation\" : true, \"models\" : \"SO_Nutzungsplanung_20171118\", \"doSchemaImport\" : true, \"function\" : \"import\", \"file\" : \"./lib/src/test/data/2551.xtf\" }";
+    char * settings = "{ \"dbhost\" : \"192.168.56.1\", \"dbport\" : \"54321\", \"dbdatabase\" : \"edit\", \"dbusr\" : \"admin\", \"dbpwd\" : \"admin\", \"dburl\" : \"jdbc:postgresql://192.168.56.1:54321/edit\", \"dbschema\" : \"npl_2551\", \"defaultSrsCode\" : \"2056\", \"strokeArcs\" : \"enable\", \"disableValidation\" : true, \"models\" : \"SO_Nutzungsplanung_20171118\", \"doSchemaImport\" : true, \"function\" : \"import\", \"file\" : \"./lib/src/test/data/2551.xtf\" }";
     printf("%d\n", ili2pg(thread, settings));
 
     if (graal_detach_thread(thread) != 0) {
